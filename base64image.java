@@ -13,8 +13,7 @@ public class Main {
 		Graphics g = bi.getGraphics();
 		g.setColor(new Color(0, 0, 0));
 		g.fillRect(1, 1, 198, 148);
-
-		//TODO: полученное изображение закодировать через base64 в строку out
+		//TODO: полученное изображение представить в виде jpeg, закодировать через base64 и поместить строку out
 		//JPEGImageEncoder jie = JPEGCodec.createJPEGEncoder(System.out);
 		//jie.encode(bi);
     }
